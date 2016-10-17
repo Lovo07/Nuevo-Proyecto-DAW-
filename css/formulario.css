@@ -1,0 +1,86 @@
+.formulario{
+	width: 80%;
+	float: left;
+	margin: 0 auto;
+	padding: 15px;
+	margin-top: 20px;
+}
+textarea{
+	max-width: 350px;
+	max-height: 100px;
+}
+input{
+	display: inline-block;
+}
+label{
+	margin
+}
+
+
+form{
+	width: 75%;
+	border: 1px solid #ccc;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+label{
+	font-size: 15px;
+	display: block;
+	width: 100%;
+
+}
+
+input, textarea{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	border: 1px solid gray;
+}
+
+input:focus, {
+	border: 1px solid #1668C4;
+
+
+}
+
+textarea{
+	resize:vertical;
+	max-width: 500px;
+	min-height: 100px;
+}
+input[type="submit"]{
+	margin-bottom: 0px;
+	background: #1668C4;
+	color: #fff;
+	border: none;
+}
+input[type="submit"]:hover{
+	background: #4A88F4;
+	cursor: pointer;
+}
+div{
+	margin: 0 auto; 
+
+}
+form input [type="text"]:optional{
+border-color: orange;
+}
+
+form input [type="checkbox"]:checked{
+ background-color: yellow;
+ float: right;
+ padding-top: 15px;
+ padding-left: 55px;
+}
+
+
+input#edad:focus:out-of-range{
+background-color: lightpink;
+}
+input#edad:focus:in-range {
+background-color: lightgreen;
+}

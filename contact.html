@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>El-Blog</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <link rel="stylesheet" type="text/css" href="css/formulario.css">
+  <script script="js/formulario.js"></script>
+</head>
+
+<body>
+
+<!-- cajas en donde se aloja la cabecera principal de la pagina web-->
+
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+         
+        <h1><a href="index.html"><span class="logo_colour">Proyecto de Catedra</span></a></h1>
+          <h2>Desarrolo de Aplicaciones Web</h2>
+        </div>
+      </div>
+      <!--Barra del menu navegacion de la pagina html-->
+      <div id="menubar">
+        <ul id="menu">
+          
+          <li class="selected"><a href="index.html">Inicio</a></li>
+          <li><a href="examples.html">Reglas</a></li>
+      
+          <li><a href="another_page.html">Bosquejos</a></li>
+          <li><a href="contact.html">A cerca de</a></li>
+          <li><a href="juego.html">Juego</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <!--Nombres de los integrantes en una caja -->
+      <div id="content">
+        <h1>Nombre de los creadores:</h1>
+             <br> <hr>
+             <h2>Jonathan Uziel Diaz Ortiz</h2><hr>
+             <h2>Elmer Alexander Lovo Mejia</h2><hr>
+             <h2>Carlos Roberto Argueta Ramos</h2> <hr>   
+ 
+          
+      </div>
+
+<h3>Contactenos</h3>
+<div class="formulario">
+  
+<form id="localStorageTest" method="post" action="">
+    <label>Nombre:</label>
+    <input type="text" name="nombre" id="nombre" class="stored" value=""placeholder="Escribe tu nombre" value="" pattern="^[a-zA-Z\s]+$" title="Solo se acepta letras" class="control" placeholder="Nombre" required />
+    <label>Email:</label>
+    <input type="email" name="email" id="email" class="stored" value=""placeholder="Escribe tu e-mail" title="Formato de correo: Example11@dominio" required="" />
+    <label>Pais:</label>
+ <input type="pais" name="email" id="pais" class="stored" value="" placeholder="Escribe tu pais" >
+
+    <label>Message:</label>
+    <textarea name="mensaje" id="mensaje" class="mensaje" placeholder="Escribe tu mensaje" max-width="65px"></textarea>
+
+    <input type="submit" class="demo-button" value="Submit"  />
+</form>
+
+</div>
+
+
+
+    </div>
+ <div id="footer">
+      PROYECTO DE CATEDRA UNIVERSITARIA  | UNIVERSIDAD DON DOSCO 2016&copy;| DESARROLLO DE APLICACIONES WEB
+    </div>
+  </div>
+</body>
+</html>
